@@ -111,6 +111,10 @@ body {
   display: block;
 }
 
+.popup_checkbox_more:checked ~ .more_label {
+  display: none;
+}
+
 .popup_checkbox_more {
   appearance: none;
   display: none;
